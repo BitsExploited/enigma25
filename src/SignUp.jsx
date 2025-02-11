@@ -28,8 +28,8 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen min-w-[320px] flex items-center justify-center bg-[#111111] text-white font-['Orbitron']">
-      <div className="bg-[#1a1a1a] p-8 rounded-lg w-[350px] flex flex-col items-center relative 
+    <div className="min-h-screen min-w-[320px] flex items-center justify-center bg-[#111111] text-white font-[Orbitron]">
+      <div className="bg-[#1a1a1a] p-8  w-[350px] flex flex-col items-center relative 
         animate-border border-2 border-transparent 
         before:absolute before:inset-0 before:bg-gradient-to-r 
         before:from-transparent before:via-[#1cd41c] before:to-transparent 
@@ -92,7 +92,7 @@ const SignUp = () => {
           
           <button
             type="submit"
-            className="w-full py-3 px-4 mt-4 bg-transparent text-[#1cd41c] border-2 border-[#1cd41c] rounded-lg 
+            className="w-full py-3 px-4 mt-4 bg-transparent text-[#1cd41c] border-2 border-[#1cd41c] 
               hover:bg-[#1cd41c] hover:text-white 
               transition-colors duration-300 
               hover:scale-105 
@@ -134,7 +134,7 @@ const InputField = ({ label, type, placeholder, required, value, onChange }) => 
         required={required}
         value={value}
         onChange={onChange}
-        className="w-full px-3 py-2 bg-[#2c2c2c] border border-[#1cd41c] rounded text-white 
+        className="w-full px-3 py-2 bg-[#2c2c2c] border border-[#1cd41c] text-white 
           focus:outline-none focus:border-[#1cd41c] focus:ring-1 focus:ring-[#1cd41c]
           transition-all duration-300
           hover:scale-105 hover:translate-y-[-5px] 
