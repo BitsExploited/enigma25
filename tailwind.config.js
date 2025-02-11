@@ -38,7 +38,7 @@ export default {
         'neuebit': ['NeueBit', 'sans-serif'],
         'montreal-medium': ['Montreal-Medium', 'sans-serif'],
         'montreal-book': ['Montreal-Book', 'sans-serif'],
-        'orbitron': ['Orbitron', 'sans-serif'] // Adding Orbitron Font by Amiitesh
+        'orbitron': ['Orbitron', 'orbitron'] // Adding Orbitron Font by Amiitesh
       },
       keyframes: { // Keyframes for the login page by Amiitesh
         border: {

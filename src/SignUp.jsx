@@ -28,7 +28,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen min-w-[320px] flex items-center justify-center bg-[#111111] text-white font-[Orbitron]">
+    <div className="min-h-screen min-w-[320px] flex items-center justify-center bg-[#111111] font-orbitron text-white ">
       <div className="bg-[#1a1a1a] p-8  w-[350px] flex flex-col items-center relative 
         animate-border border-2 border-transparent 
         before:absolute before:inset-0 before:bg-gradient-to-r 
@@ -37,8 +37,8 @@ const SignUp = () => {
         <div className="flex items-center gap-2 mb-6 animate-float">
           <TerminalIcon />
           <AnimatedText 
-            text="Enigma25" 
-            className="text-3xl font-bold text-[#1cd41c] tracking-wider drop-shadow-enigma-glow"
+            text="ENIGMA25" 
+            className="text-3xl font-bold text-[#1cd41c] tracking-wider"
             time={1.0}
           />
         </div>
@@ -63,7 +63,7 @@ const SignUp = () => {
         <form onSubmit={handleSubmit} className="w-full">
           {!isLogin && (
             <InputField
-              label="Email"
+              label="EMAIL"
               type="email"
               placeholder="Enter your email"
               required
@@ -73,8 +73,8 @@ const SignUp = () => {
           )}
           
           <InputField
-            label="Username"
-            type="text"
+            label="USERNAME"
+            type="username"
             placeholder={isLogin ? "Enter your username" : "Choose a username"}
             required
             value={username}
@@ -82,7 +82,7 @@ const SignUp = () => {
           />
           
           <InputField
-            label="Password"
+            label="PASSWORD"
             type="password"
             placeholder={isLogin ? "Enter your password" : "Choose a password"}
             required
